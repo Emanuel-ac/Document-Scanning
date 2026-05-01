@@ -1,0 +1,7 @@
+condition_type,condition,count,detection_rate,usable_scan_rate
+background,clean,18,83.33,66.67
+background,moderate,17,100.0,76.47
+background,cluttered,3,100.0,100.0
+lighting,uneven,31,100.0,80.65
+lighting,balanced,1,100.0,0.0
+lighting,bright,6,50.0,50.0

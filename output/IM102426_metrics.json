@@ -1,0 +1,52 @@
+{
+  "file": "IM102426.jpg",
+  "detection_method": "corners",
+  "binarization_method": "otsu_deshadow",
+  "corners": [
+    [
+      156.0,
+      38.0
+    ],
+    [
+      616.0,
+      39.0
+    ],
+    [
+      714.0,
+      667.0
+    ],
+    [
+      164.0,
+      736.0
+    ]
+  ],
+  "requested_detection_mode": "auto",
+  "detection_success": 1,
+  "usable_scan": 1,
+  "quality_status": "accepted",
+  "rejected_input": 0,
+  "rejection_reason": "",
+  "quality_flags": [],
+  "sharpness": 927.38,
+  "sharpness_label": "Excellent",
+  "skew_angle": 2.97,
+  "skew_label": "Slight",
+  "contrast": 11.26,
+  "brightness": 158.05,
+  "shadow_level": 10.82,
+  "binarization_score": 58.38,
+  "detection_confidence": 0.875,
+  "overall_score": 70.4,
+  "overall_label": "Good",
+  "background_complexity": "moderate",
+  "lighting_condition": "uneven",
+  "lighting_variation": 34.7,
+  "background_edge_density": 0.0066,
+  "document_area_ratio": 0.526,
+  "binarization_scores": {
+    "adaptive_gaussian": 56.91,
+    "otsu_deshadow": 58.38,
+    "sauvola_deshadow": 51.74,
+    "hybrid_deshadow": 56.14
+  }
+}

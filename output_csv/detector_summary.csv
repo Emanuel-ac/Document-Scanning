@@ -1,0 +1,5 @@
+forced_detection_method,count,detection_rate,usable_scan_rate,avg_overall_score,avg_detection_confidence,avg_binarization_score,wins
+contour,38,7.89,5.26,57.79,0.171,52.76,5
+threshold,38,68.42,55.26,66.02,0.693,55.71,12
+hough,38,76.32,68.42,67.04,0.77,56.41,15
+corners,38,76.32,44.74,62.11,0.645,54.69,6

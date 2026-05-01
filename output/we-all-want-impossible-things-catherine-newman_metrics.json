@@ -1,0 +1,54 @@
+{
+  "file": "we-all-want-impossible-things-catherine-newman.png",
+  "detection_method": "hough",
+  "binarization_method": "sauvola_deshadow",
+  "corners": [
+    [
+      43.630001068115234,
+      189.0
+    ],
+    [
+      1296.3800048828125,
+      189.0
+    ],
+    [
+      1278.780029296875,
+      1238.8499755859375
+    ],
+    [
+      231.30999755859375,
+      1256.1500244140625
+    ]
+  ],
+  "requested_detection_mode": "auto",
+  "detection_success": 1,
+  "usable_scan": 0,
+  "quality_status": "rejected",
+  "rejected_input": 1,
+  "rejection_reason": "score<60",
+  "quality_flags": [
+    "score<60"
+  ],
+  "sharpness": 275.83,
+  "sharpness_label": "Fair",
+  "skew_angle": 0.0,
+  "skew_label": "Straight",
+  "contrast": 14.58,
+  "brightness": 147.22,
+  "shadow_level": 15.76,
+  "binarization_score": 63.54,
+  "detection_confidence": 0.97,
+  "overall_score": 58.5,
+  "overall_label": "Fair",
+  "background_complexity": "moderate",
+  "lighting_condition": "uneven",
+  "lighting_variation": 21.02,
+  "background_edge_density": 0.0131,
+  "document_area_ratio": 0.587,
+  "binarization_scores": {
+    "adaptive_gaussian": 59.55,
+    "otsu_deshadow": 59.53,
+    "sauvola_deshadow": 63.54,
+    "hybrid_deshadow": 41.35
+  }
+}

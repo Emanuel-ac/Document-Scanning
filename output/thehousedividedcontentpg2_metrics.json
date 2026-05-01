@@ -1,0 +1,54 @@
+{
+  "file": "thehousedividedcontentpg2.jpg",
+  "detection_method": "corners",
+  "binarization_method": "otsu_deshadow",
+  "corners": [
+    [
+      35.0,
+      119.0
+    ],
+    [
+      580.0,
+      143.0
+    ],
+    [
+      527.0,
+      443.0
+    ],
+    [
+      68.0,
+      660.0
+    ]
+  ],
+  "requested_detection_mode": "auto",
+  "detection_success": 1,
+  "usable_scan": 0,
+  "quality_status": "rejected",
+  "rejected_input": 1,
+  "rejection_reason": "skew>12deg",
+  "quality_flags": [
+    "skew>12deg"
+  ],
+  "sharpness": 2264.34,
+  "sharpness_label": "Excellent",
+  "skew_angle": 18.0,
+  "skew_label": "Severe",
+  "contrast": 11.59,
+  "brightness": 225.78,
+  "shadow_level": 2.82,
+  "binarization_score": 62.11,
+  "detection_confidence": 0.805,
+  "overall_score": 61.8,
+  "overall_label": "Good",
+  "background_complexity": "moderate",
+  "lighting_condition": "uneven",
+  "lighting_variation": 11.89,
+  "background_edge_density": 0.0337,
+  "document_area_ratio": 0.328,
+  "binarization_scores": {
+    "adaptive_gaussian": 59.85,
+    "otsu_deshadow": 62.11,
+    "sauvola_deshadow": 55.69,
+    "hybrid_deshadow": 56.52
+  }
+}

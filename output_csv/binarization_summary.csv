@@ -1,0 +1,5 @@
+method,avg_score,wins,selected_count
+adaptive_gaussian,56.42,11,11
+hybrid_deshadow,50.32,6,6
+otsu_deshadow,57.17,16,16
+sauvola_deshadow,55.95,5,5

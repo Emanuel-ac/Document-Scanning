@@ -1,0 +1,52 @@
+{
+  "file": "20260226_133935.jpg",
+  "detection_method": "threshold",
+  "binarization_method": "adaptive_gaussian",
+  "corners": [
+    [
+      66.0,
+      0.0
+    ],
+    [
+      807.0,
+      98.0
+    ],
+    [
+      851.0,
+      1138.0
+    ],
+    [
+      12.0,
+      1199.0
+    ]
+  ],
+  "requested_detection_mode": "auto",
+  "detection_success": 1,
+  "usable_scan": 1,
+  "quality_status": "accepted",
+  "rejected_input": 0,
+  "rejection_reason": "",
+  "quality_flags": [],
+  "sharpness": 2477.24,
+  "sharpness_label": "Excellent",
+  "skew_angle": -1.02,
+  "skew_label": "Slight",
+  "contrast": 14.9,
+  "brightness": 181.83,
+  "shadow_level": 7.73,
+  "binarization_score": 67.82,
+  "detection_confidence": 1.0,
+  "overall_score": 81.1,
+  "overall_label": "Excellent",
+  "background_complexity": "clean",
+  "lighting_condition": "uneven",
+  "lighting_variation": 20.87,
+  "background_edge_density": 0.0121,
+  "document_area_ratio": 0.819,
+  "binarization_scores": {
+    "adaptive_gaussian": 67.82,
+    "otsu_deshadow": 63.36,
+    "sauvola_deshadow": 62.11,
+    "hybrid_deshadow": 58.97
+  }
+}

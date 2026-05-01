@@ -1,0 +1,153 @@
+file,forced_detection_method,resolved_detection_method,detection_success,usable_scan,quality_status,rejection_reason,binarization_method,benchmark_binarization_mode,overall_score,detection_confidence,sharpness,skew_angle,binarization_score
+0.jpg,contour,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,61.4,0.1,1564.72,2.01,56.28
+0.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,77.2,0.88,1574.9,0.0,58.79
+0.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,75.6,0.99,1831.48,-2.01,59.18
+0.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,71.5,0.865,2898.07,-2.92,54.53
+1.jpg,contour,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,63.3,0.1,1432.97,-2.08,48.62
+1.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,79.1,1.0,2233.25,0.9,63.35
+1.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,77.8,0.988,1874.02,0.83,64.2
+1.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,72.8,0.839,2276.0,3.02,60.57
+10.jpg,contour,contour,1,0,rejected,binary<45,otsu_deshadow,otsu_deshadow,70.1,0.979,2870.85,-5.91,44.51
+10.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,79.0,1.0,3122.68,-1.87,49.23
+10.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,77.3,0.934,1783.04,-2.06,48.02
+10.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,71.1,0.815,1821.53,4.04,62.59
+11.jpg,contour,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,64.1,0.1,1152.18,-3.87,63.8
+11.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,78.0,1.0,1450.87,-3.4,67.26
+11.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,73.7,0.966,1065.77,-5.95,66.38
+11.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,78.9,0.876,1252.03,-2.44,67.5
+12.jpg,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,50.4,0.1,494.71,-1.15,63.25
+12.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,62.5,1.0,523.16,-0.89,54.88
+12.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,70.5,0.987,1357.2,3.88,55.56
+12.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,74.8,0.867,1466.49,0.0,50.53
+13.jpg,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,54.3,0.1,600.11,0.0,55.43
+13.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,73.5,1.0,780.48,0.0,55.94
+13.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,78.1,0.996,1657.74,0.0,57.47
+13.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,70.5,0.835,1772.33,2.1,52.01
+14.jpg,contour,fallback,0,0,rejected,"score<60, conf<0.35, binary<45",otsu_deshadow,otsu_deshadow,52.4,0.1,643.04,1.99,43.05
+14.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,70.5,1.0,777.41,-2.97,55.66
+14.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,61.9,0.963,597.65,4.05,49.78
+14.jpg,corners,fallback,0,0,rejected,"score<60, conf<0.35, binary<45",otsu_deshadow,otsu_deshadow,52.4,0.1,643.04,1.99,43.05
+15.jpg,contour,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,63.2,0.1,1193.5,0.46,48.96
+15.jpg,threshold,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,63.2,0.1,1193.5,0.46,48.96
+15.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,78.0,0.972,3156.22,1.21,57.71
+15.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,66.3,0.793,3633.11,5.97,57.52
+16.jpg,contour,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,69.1,0.1,2065.1,0.0,63.99
+16.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,79.6,0.88,2161.08,0.42,66.07
+16.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,81.8,0.991,2668.82,0.0,71.35
+16.jpg,corners,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,69.1,0.1,2065.1,0.0,63.99
+17.jpg,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,44.7,0.1,293.13,0.0,49.84
+17.jpg,threshold,threshold,1,0,rejected,score<60,otsu_deshadow,otsu_deshadow,57.3,0.88,298.4,0.0,51.04
+17.jpg,hough,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,44.7,0.1,293.13,0.0,49.84
+17.jpg,corners,corners,1,0,rejected,binary<45,otsu_deshadow,otsu_deshadow,61.7,0.689,1208.69,5.02,36.86
+18.jpg,contour,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,67.8,0.1,1398.71,0.0,53.38
+18.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,80.5,1.0,1904.63,0.0,50.87
+18.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,65.0,0.969,1777.94,-7.12,49.75
+18.jpg,corners,corners,1,0,rejected,binary<45,otsu_deshadow,otsu_deshadow,72.8,0.846,3808.78,1.72,37.06
+19.jpg,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,57.0,0.1,1472.06,4.02,53.44
+19.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,69.4,1.0,2501.6,-5.14,55.93
+19.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,77.4,0.986,3107.5,-0.85,60.12
+19.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,74.6,0.874,4214.82,1.09,48.73
+2.jpg,contour,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,63.8,0.1,5149.62,0.0,48.09
+2.jpg,threshold,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,63.8,0.1,5149.62,0.0,48.09
+2.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,77.8,0.985,6825.03,0.0,49.77
+2.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,75.3,0.863,5841.84,-0.85,51.89
+20260225_223207.jpg,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,49.3,0.1,344.45,0.0,49.55
+20260225_223207.jpg,threshold,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,49.3,0.1,344.45,0.0,49.55
+20260225_223207.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,62.4,0.979,414.85,-2.0,57.71
+20260225_223207.jpg,corners,corners,1,0,rejected,score<60,otsu_deshadow,otsu_deshadow,43.8,0.792,399.92,-9.94,62.59
+20260226_110018.jpg,contour,contour,1,1,accepted,,otsu_deshadow,otsu_deshadow,84.0,1.0,1037.44,0.0,55.0
+20260226_110018.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,83.8,1.0,1020.16,0.0,54.61
+20260226_110018.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,79.7,0.986,813.7,-0.98,66.4
+20260226_110018.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,71.7,0.667,2162.27,-7.03,72.57
+20260226_133935.jpg,contour,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,63.6,0.1,2270.23,-0.96,47.25
+20260226_133935.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,80.4,1.0,2477.24,-1.02,63.36
+20260226_133935.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,78.3,0.974,2463.38,-1.98,63.31
+20260226_133935.jpg,corners,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,63.6,0.1,2270.23,-0.96,47.25
+20260226_134043.jpg,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,44.3,0.1,165.95,0.0,48.48
+20260226_134043.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,61.1,1.0,296.73,-1.0,65.22
+20260226_134043.jpg,hough,hough,1,0,rejected,"score<60, blurred",otsu_deshadow,otsu_deshadow,54.6,0.959,102.7,-1.0,60.93
+20260226_134043.jpg,corners,corners,1,0,rejected,"score<60, skew>12deg",otsu_deshadow,otsu_deshadow,42.4,0.772,429.56,-15.04,63.79
+20260226_134059.jpg,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,43.9,0.1,213.13,0.97,54.34
+20260226_134059.jpg,threshold,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,43.9,0.1,213.13,0.97,54.34
+20260226_134059.jpg,hough,hough,1,0,rejected,score<60,otsu_deshadow,otsu_deshadow,57.2,0.926,276.47,-2.01,63.08
+20260226_134059.jpg,corners,corners,1,0,rejected,"score<60, skew>12deg",otsu_deshadow,otsu_deshadow,41.4,0.743,425.99,-15.03,62.35
+20260226_134128.jpg,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,55.7,0.1,553.28,-2.01,57.56
+20260226_134128.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,79.4,0.996,782.18,-0.46,56.03
+20260226_134128.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,72.0,0.968,579.44,-1.01,69.73
+20260226_134128.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,78.3,0.58,1755.04,-1.02,63.26
+20260226_153924.jpg,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,52.3,0.1,495.35,-2.0,56.26
+20260226_153924.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,63.0,0.978,746.63,-7.99,70.13
+20260226_153924.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,68.0,0.979,623.11,3.07,66.8
+20260226_153924.jpg,corners,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,52.3,0.1,495.35,-2.0,56.26
+20260226_153936.jpg,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,46.8,0.1,226.44,0.0,57.13
+20260226_153936.jpg,threshold,threshold,1,0,rejected,score<60,otsu_deshadow,otsu_deshadow,57.8,1.0,202.08,-1.0,63.49
+20260226_153936.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,60.2,0.989,213.01,0.0,60.05
+20260226_153936.jpg,corners,corners,1,0,rejected,score<60,otsu_deshadow,otsu_deshadow,39.1,0.862,257.62,9.99,57.87
+3.jpg,contour,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,64.7,0.1,2248.71,1.01,59.49
+3.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,77.6,1.0,4306.66,0.98,56.41
+3.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,75.5,0.995,4519.15,-1.89,47.5
+3.jpg,corners,corners,1,0,rejected,binary<45,otsu_deshadow,otsu_deshadow,75.8,0.893,7059.73,0.0,30.72
+4.jpg,contour,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,66.5,0.1,3054.13,0.77,50.04
+4.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,78.3,1.0,4139.99,1.97,61.57
+4.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,77.2,0.973,4387.0,-1.97,55.32
+4.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,67.5,0.881,5353.15,6.75,58.63
+5.jpg,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,53.6,0.1,471.61,0.0,58.39
+5.jpg,threshold,threshold,1,0,rejected,score<60,otsu_deshadow,otsu_deshadow,58.6,0.872,327.06,0.0,58.28
+5.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,63.7,0.99,356.27,0.0,57.42
+5.jpg,corners,corners,1,0,rejected,"score<60, skew>12deg",otsu_deshadow,otsu_deshadow,37.5,0.786,301.41,-18.0,55.95
+6.JPG,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,49.2,0.1,354.56,0.0,61.47
+6.JPG,threshold,threshold,1,0,rejected,score<60,otsu_deshadow,otsu_deshadow,51.1,1.0,329.77,-6.93,64.47
+6.JPG,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,62.2,0.975,302.46,-0.95,59.07
+6.JPG,corners,corners,1,0,rejected,"score<60, skew>12deg",otsu_deshadow,otsu_deshadow,44.4,0.822,380.2,16.96,63.39
+7.jpg,contour,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,69.1,0.1,2065.1,0.0,63.99
+7.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,79.6,0.88,2161.08,0.42,66.07
+7.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,81.8,0.991,2668.82,0.0,71.35
+7.jpg,corners,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,69.1,0.1,2065.1,0.0,63.99
+8.jpg,contour,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,64.3,0.1,2493.67,-1.01,59.56
+8.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,76.5,0.872,2397.6,-0.82,62.68
+8.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,77.5,0.983,3734.06,-0.92,55.63
+8.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,73.0,0.847,3583.24,-3.01,59.23
+9.jpg,contour,contour,1,1,accepted,,otsu_deshadow,otsu_deshadow,77.0,1.0,2080.95,0.0,49.92
+9.jpg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,79.3,1.0,2334.72,0.0,46.09
+9.jpg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,77.3,0.988,2206.03,1.01,46.11
+9.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,73.4,0.88,2115.58,0.84,49.93
+a01-011x.png,contour,fallback,0,0,rejected,"score<60, conf<0.35, binary<45",otsu_deshadow,otsu_deshadow,50.4,0.1,359.72,0.0,41.11
+a01-011x.png,threshold,fallback,0,0,rejected,"score<60, conf<0.35, binary<45",otsu_deshadow,otsu_deshadow,50.4,0.1,359.72,0.0,41.11
+a01-011x.png,hough,fallback,0,0,rejected,"score<60, conf<0.35, binary<45",otsu_deshadow,otsu_deshadow,50.4,0.1,359.72,0.0,41.11
+a01-011x.png,corners,fallback,0,0,rejected,"score<60, conf<0.35, binary<45",otsu_deshadow,otsu_deshadow,50.4,0.1,359.72,0.0,41.11
+a01-014.png,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,49.8,0.1,287.66,0.0,45.45
+a01-014.png,threshold,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,49.8,0.1,287.66,0.0,45.45
+a01-014.png,hough,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,49.8,0.1,287.66,0.0,45.45
+a01-014.png,corners,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,49.8,0.1,287.66,0.0,45.45
+a01-026u.png,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,52.1,0.1,325.37,0.0,49.57
+a01-026u.png,threshold,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,52.1,0.1,325.37,0.0,49.57
+a01-026u.png,hough,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,52.1,0.1,325.37,0.0,49.57
+a01-026u.png,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,62.5,0.879,281.43,0.98,54.7
+a01-026x.png,contour,fallback,0,0,rejected,"score<60, conf<0.35, binary<45",otsu_deshadow,otsu_deshadow,51.1,0.1,358.96,0.0,43.09
+a01-026x.png,threshold,threshold,1,0,rejected,binary<45,otsu_deshadow,otsu_deshadow,63.0,0.878,369.12,0.0,41.91
+a01-026x.png,hough,fallback,0,0,rejected,"score<60, conf<0.35, binary<45",otsu_deshadow,otsu_deshadow,51.1,0.1,358.96,0.0,43.09
+a01-026x.png,corners,fallback,0,0,rejected,"score<60, conf<0.35, binary<45",otsu_deshadow,otsu_deshadow,51.1,0.1,358.96,0.0,43.09
+a01-030.png,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,50.0,0.1,300.65,0.0,46.56
+a01-030.png,threshold,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,50.0,0.1,300.65,0.0,46.56
+a01-030.png,hough,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,50.0,0.1,300.65,0.0,46.56
+a01-030.png,corners,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,50.0,0.1,300.65,0.0,46.56
+a01-030u.png,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,51.5,0.1,307.49,0.0,49.33
+a01-030u.png,threshold,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,51.5,0.1,307.49,0.0,49.33
+a01-030u.png,hough,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,51.5,0.1,307.49,0.0,49.33
+a01-030u.png,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,71.1,0.875,491.46,0.0,55.85
+G6miiqkWkAAn-bE.jpeg,contour,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,66.5,0.1,4693.2,0.0,48.11
+G6miiqkWkAAn-bE.jpeg,threshold,threshold,1,1,accepted,,otsu_deshadow,otsu_deshadow,79.7,1.0,6378.65,-1.9,64.02
+G6miiqkWkAAn-bE.jpeg,hough,hough,1,1,accepted,,otsu_deshadow,otsu_deshadow,81.0,0.99,6317.76,-1.04,64.29
+G6miiqkWkAAn-bE.jpeg,corners,corners,1,0,rejected,skew>12deg,otsu_deshadow,otsu_deshadow,60.9,0.643,6477.61,15.07,56.57
+IM102426.jpg,contour,fallback,0,0,rejected,"score<60, conf<0.35, binary<45",otsu_deshadow,otsu_deshadow,50.8,0.1,504.52,-0.98,37.86
+IM102426.jpg,threshold,fallback,0,0,rejected,"score<60, conf<0.35, binary<45",otsu_deshadow,otsu_deshadow,50.8,0.1,504.52,-0.98,37.86
+IM102426.jpg,hough,fallback,0,0,rejected,"score<60, conf<0.35, binary<45",otsu_deshadow,otsu_deshadow,50.8,0.1,504.52,-0.98,37.86
+IM102426.jpg,corners,corners,1,1,accepted,,otsu_deshadow,otsu_deshadow,70.4,0.875,927.38,2.97,58.38
+thehousedividedcontentpg2.jpg,contour,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,65.8,0.1,1287.88,0.0,67.24
+thehousedividedcontentpg2.jpg,threshold,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,65.8,0.1,1287.88,0.0,67.24
+thehousedividedcontentpg2.jpg,hough,fallback,0,0,rejected,conf<0.35,otsu_deshadow,otsu_deshadow,65.8,0.1,1287.88,0.0,67.24
+thehousedividedcontentpg2.jpg,corners,corners,1,0,rejected,skew>12deg,otsu_deshadow,otsu_deshadow,61.8,0.805,2264.34,18.0,62.11
+we-all-want-impossible-things-catherine-newman.png,contour,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,42.3,0.1,172.68,0.0,55.59
+we-all-want-impossible-things-catherine-newman.png,threshold,fallback,0,0,rejected,"score<60, conf<0.35",otsu_deshadow,otsu_deshadow,42.3,0.1,172.68,0.0,55.59
+we-all-want-impossible-things-catherine-newman.png,hough,hough,1,0,rejected,score<60,otsu_deshadow,otsu_deshadow,57.9,0.97,275.83,0.0,59.53
+we-all-want-impossible-things-catherine-newman.png,corners,corners,1,0,rejected,score<60,otsu_deshadow,otsu_deshadow,46.9,0.834,440.34,-9.02,59.92

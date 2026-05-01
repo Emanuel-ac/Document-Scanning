@@ -1,0 +1,55 @@
+{
+  "file": "a01-030.png",
+  "detection_method": "fallback",
+  "binarization_method": "hybrid_deshadow",
+  "corners": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      2478.0,
+      0.0
+    ],
+    [
+      2478.0,
+      3541.0
+    ],
+    [
+      0.0,
+      3541.0
+    ]
+  ],
+  "requested_detection_mode": "auto",
+  "detection_success": 0,
+  "usable_scan": 0,
+  "quality_status": "rejected",
+  "rejected_input": 1,
+  "rejection_reason": "score<60, conf<0.35",
+  "quality_flags": [
+    "score<60",
+    "conf<0.35"
+  ],
+  "sharpness": 300.65,
+  "sharpness_label": "Good",
+  "skew_angle": 0.0,
+  "skew_label": "Straight",
+  "contrast": 12.25,
+  "brightness": 241.76,
+  "shadow_level": 3.47,
+  "binarization_score": 64.38,
+  "detection_confidence": 0.1,
+  "overall_score": 52.6,
+  "overall_label": "Fair",
+  "background_complexity": "clean",
+  "lighting_condition": "bright",
+  "lighting_variation": 3.47,
+  "background_edge_density": 0.0003,
+  "document_area_ratio": 0.999,
+  "binarization_scores": {
+    "adaptive_gaussian": 60.98,
+    "otsu_deshadow": 46.56,
+    "sauvola_deshadow": 47.87,
+    "hybrid_deshadow": 64.38
+  }
+}
